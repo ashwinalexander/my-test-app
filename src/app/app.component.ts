@@ -5,6 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+//data-binding
 export class AppComponent {
-  title = 'my-test-app';
+  name="fish"
 }
+
+//definition of the component
