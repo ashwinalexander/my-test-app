@@ -6,15 +6,15 @@ selector: "app-server",
 templateUrl: "./server.component.html"
 })
 
-export class ServerComponent{
-serverId:number = 10;
-serverStatus: string = "offline";
+ export class ServerComponent{
+ serverId:number = 10;
+ serverStatus: string = "offdline";
 
+ 
+ getServerStatus(){
 
-
-getServerStatus(){
-    return this.serverStatus;
-}
+  return this.serverStatus + "DD";
+ }
 
 }
 //component is a typescript class

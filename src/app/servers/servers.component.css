@@ -1,0 +1,8 @@
+button {
+  color: pink;
+  background-color: yellow;
+}
+
+button:hover {
+  color: red;
+}
